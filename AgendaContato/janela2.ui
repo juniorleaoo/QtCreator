@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>janela2</class>
+ <widget class="QDialog" name="janela2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>877</width>
+    <height>272</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidgetSaida">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>721</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+   <property name="sortingEnabled">
+    <bool>false</bool>
+   </property>
+   <column>
+    <property name="text">
+     <string>Nome</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Endereço Residencial</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Endereço Trabalho</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Telefone Residencial</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Telefone Trabalho</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Telefone Celular</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Email</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>220</y>
+     <width>541</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButtonJListar">
+      <property name="text">
+       <string>Listar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButtonVoltarPrincipal">
+      <property name="text">
+       <string>Voltar</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>220</y>
+     <width>69</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string> </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nome</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Endereco Residencial</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CEP/Nome</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

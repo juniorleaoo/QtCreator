@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>393</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>21</y>
+      <width>241</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Nome:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditNome"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>20</y>
+      <width>251</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Email:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEditEmail"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>150</y>
+      <width>178</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0" colspan="3">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Telefone Trabalho:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>DDI</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" colspan="2">
+      <widget class="QLineEdit" name="lineEditTelefoneTrabalholDDI"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>DDD</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1" colspan="2">
+      <widget class="QLineEdit" name="lineEditTelefoneTrabalhoDDD"/>
+     </item>
+     <item row="3" column="0" colspan="2">
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>Numero</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="lineEditTelefoneTrabalhoNumero"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>13</x>
+      <y>151</y>
+      <width>178</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0" colspan="2">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Telefone Residencial:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>DDI</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEditTelefoneResidencialDDI"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>DDD</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEditTelefoneResidencialDDD"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>Numero</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="lineEditTelefoneResidencialNumero"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>150</y>
+      <width>178</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0" colspan="3">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Telefone Celular:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>DDI</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" colspan="2">
+      <widget class="QLineEdit" name="lineEditTelefoneCelularDDI"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>DDD</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1" colspan="2">
+      <widget class="QLineEdit" name="lineEditTelefoneCelularlDDD"/>
+     </item>
+     <item row="3" column="0" colspan="2">
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>Numero</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="lineEditTelefoneCelularNumero"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>551</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QPushButton" name="pushButtonListagem">
+       <property name="text">
+        <string>Listagem</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonExcluir">
+       <property name="text">
+        <string>Excluir</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonEditar">
+       <property name="text">
+        <string>Editar</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonIncluir">
+       <property name="text">
+        <string>Incluir</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButtonBuscar">
+       <property name="text">
+        <string>Buscar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>50</y>
+      <width>251</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="0" colspan="2">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Endereco Trabalho:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_21">
+       <property name="text">
+        <string>Logradouro:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEditEnderecoTrabalhoLogradouro"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_20">
+       <property name="text">
+        <string>CEP:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEditEnderecoTrabalhoCEP"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_22">
+       <property name="text">
+        <string>Numero:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="lineEditEnderecoTrabalhoNumero"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>241</width>
+      <height>93</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="0" column="0" colspan="2">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Endereco Residencial:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>Logradouro:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEditEnderecoResidencialLogradouro"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_18">
+       <property name="text">
+        <string>CEP:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEditEnderecoResidencialCEP"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_19">
+       <property name="text">
+        <string>Numero:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="lineEditEnderecoResidencialNumero"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>lineEditNome</tabstop>
+  <tabstop>lineEditEmail</tabstop>
+  <tabstop>lineEditEnderecoResidencialLogradouro</tabstop>
+  <tabstop>lineEditEnderecoResidencialCEP</tabstop>
+  <tabstop>lineEditEnderecoResidencialNumero</tabstop>
+  <tabstop>lineEditEnderecoTrabalhoLogradouro</tabstop>
+  <tabstop>lineEditEnderecoTrabalhoCEP</tabstop>
+  <tabstop>lineEditEnderecoTrabalhoNumero</tabstop>
+  <tabstop>lineEditTelefoneResidencialDDI</tabstop>
+  <tabstop>lineEditTelefoneResidencialDDD</tabstop>
+  <tabstop>lineEditTelefoneResidencialNumero</tabstop>
+  <tabstop>lineEditTelefoneTrabalholDDI</tabstop>
+  <tabstop>lineEditTelefoneTrabalhoDDD</tabstop>
+  <tabstop>lineEditTelefoneTrabalhoNumero</tabstop>
+  <tabstop>lineEditTelefoneCelularDDI</tabstop>
+  <tabstop>lineEditTelefoneCelularlDDD</tabstop>
+  <tabstop>lineEditTelefoneCelularNumero</tabstop>
+  <tabstop>pushButtonIncluir</tabstop>
+  <tabstop>pushButtonListagem</tabstop>
+  <tabstop>pushButtonBuscar</tabstop>
+  <tabstop>pushButtonExcluir</tabstop>
+  <tabstop>pushButtonEditar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
