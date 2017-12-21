@@ -12,7 +12,8 @@ Uma agenda de contato para persistir os dados em um arquivo texto.
 Conjunto
 
 Programa que faz operações com conjuntos. 
-Operações de união, intersecao, diferenca, subconjunto, produto escalar, maoior subcadeia crescente e decrescente, ordernar e calcular a média.
+Operações de união, intersecao, diferenca, subconjunto, produto escalar, 
+maoir subcadeia crescente e decrescente, ordernar e calcular a média.
 ```
 
 ```
